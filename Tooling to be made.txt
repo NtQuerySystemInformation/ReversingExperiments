@@ -1,0 +1,34 @@
+TO-DO: Tooling
+
+1.-Python: 
+  -Improve simple script: Fast structure generationg based on CPU word of target architecture.
+	-Input: target arch (x86/x64), size of structure (must check modulus), name of structure)
+	-Been able to automatically run this script inside the IDB and generate the structure.
+  	-Add C++ support (class "rev").
+
+2.-Python: Get stack strings from a certain range:
+	    -Select range to get the stack string (highlight it) and gets it.
+
+3.-Python: Emulation.
+	-Dns server ready to go (you can insert for the command and control servers to emulate).
+		->Helps well for resolving the intended communications done, without having to debug from scratch.
+
+	-HTTP replier (replies to the core information):
+		->Helps well to send data to the binary without having to emulate it from scratch.
+	
+	-Unicorn/Appcall emulation:
+		-Instead of reimplementing functions, learn to use this.
+
+3.-C++: 
+	-Messing around RTTI and class inheritance.
+		-Targetting MSVC at least.
+
+	-Patching and PE reconstruction:
+		-Detecting and patching relocation bytes after patching it out.
+			->https://reverseengineering.stackexchange.com/questions/29850/ida-olly-changing-address-bytes-after-patch-during-debugging-on-x86
+		
+		-Copying PE headers from wiped headers.
+			->Antidumping case, but do it from scratch.
+
+	-Messing around: https://mark.rxmsolutions.com/hook-via-vectored-exception-handling/
+	

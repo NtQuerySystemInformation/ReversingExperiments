@@ -1,8 +1,0 @@
-1.-Improve simple script (Fast structure rebuilding based on CPU word of target architecture).
-	-Make it pass name and size of struct.
-	-Apply in IDB (but not to specific ea, this is determined by the reverser.)
-
-2.-Get stack strings from a certain range:
-	-Pass ea address range <start/end> + register to get stack string.
-
-3.-C++: RTTI mess arounds.
