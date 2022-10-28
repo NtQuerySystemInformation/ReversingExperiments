@@ -21,7 +21,7 @@ TO-DO: Tooling
 
 3.-C++: 
 	-Messing around RTTI and class inheritance.
-		-Targetting MSVC at least.
+		-Targetting MSVC at least, and understanding possible differences.
 
 	-Patching and PE reconstruction:
 		-Detecting and patching relocation bytes after patching it out.
