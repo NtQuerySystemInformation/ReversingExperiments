@@ -1,5 +1,18 @@
-TO-DO: Tooling
+Tooling notes:
+------------------------------------------------------------------------------------------------------------------------
+Reversing Tooling.
+------------------------------------------------------------------------------------------------------------------------
+-Structure rebuilding.
+1.-https://github.com/REhints/HexRaysCodeXplorer	
+2.-https://github.com/igogo-x86/HexRaysPyTools
 
+->Bindiff plugins
+->Patching plugin
+-C++ rtti plugins -> Use it.
+
+------------------------------------------------------------------------------------------------------------------------
+Gen tools for speed:
+------------------------------------------------------------------------------------------------------------------------
 1.-Python: 
   -Improve simple script: Fast structure generationg based on CPU word of target architecture.
 	-Input: target arch (x86/x64), size of structure (must check modulus), name of structure)
